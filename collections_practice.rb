@@ -58,5 +58,5 @@ def kesha_maker(array)
   kesha_array
 end
 
-# array = ["Kesha", "Meow", "WAS"]
-# kesha_maker(array)
+array = ["Kesha", "Meow", "WAS"]
+kesha_maker(array)
