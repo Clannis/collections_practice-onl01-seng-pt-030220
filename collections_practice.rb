@@ -49,10 +49,11 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.each do |item|
+  kesha_array = array.collect do |item|
     item.split("") do |char|
       char[3] = "$"
     end
     item.join("")
   end
+  kesha_array
 end
