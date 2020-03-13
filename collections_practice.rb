@@ -30,4 +30,5 @@ def swap_elements(array, index, destination_index)
   temp = array[destination_index]
   array[destination_index] = array[index]
   array[index] = temp
+  puts array
 end
