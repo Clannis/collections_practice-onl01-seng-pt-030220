@@ -55,7 +55,8 @@ def kesha_maker(array)
     item[2] = "$"
   end
   kesha_array
+  binding.pry
 end
 
-# array = ["Kesha", "Meow", "WAS"]
-# kesha_maker(array)
+array = ["Kesha", "Meow", "WAS"]
+kesha_maker(array)
