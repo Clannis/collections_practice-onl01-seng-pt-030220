@@ -54,8 +54,7 @@ def kesha_maker(array)
   array.each do |item|
     item[2] = "$"
   end
-  kesha_array
-
+  array
 end
 
 # array = ["Kesha", "Meow", "WAS"]
