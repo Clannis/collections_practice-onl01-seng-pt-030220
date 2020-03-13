@@ -52,15 +52,11 @@ end
 
 def kesha_maker(array)
   kesha_array = array.collect do |item|
-    item.split("") do |char|
-      binding.pry
-      char[3] = "$"
-    end
-    item.join("")
-    puts item
+    item[3] = "$"
+    binding.pry
   end
   kesha_array
 end
 
-array = ["Kesha", "Meow", "WAS"]
-kesha_maker(array)
+# array = ["Kesha", "Meow", "WAS"]
+# kesha_maker(array)
