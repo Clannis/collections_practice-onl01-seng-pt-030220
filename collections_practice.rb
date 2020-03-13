@@ -63,3 +63,10 @@ def find_a(array)
   end
   new_array
 end
+
+def sum_array(array)
+  sum = array.inject do |sum, num|
+    sum += num
+  end
+  sum
+end
