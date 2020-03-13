@@ -54,6 +54,10 @@ def kesha_maker(array)
       char[3] = "$"
     end
     item.join("")
+    puts item
   end
   kesha_array
 end
+
+array = ["Kesha", "Meow", "WAS"]
+kesha_maker(array)
