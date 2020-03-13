@@ -57,5 +57,9 @@ def kesha_maker(array)
   array
 end
 
-# array = ["Kesha", "Meow", "WAS"]
-# kesha_maker(array)
+def find_a(array)
+  new_array = array.select do |string|
+    string.start_with?("a")
+  end
+  new_array
+end
