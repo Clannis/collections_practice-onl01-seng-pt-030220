@@ -26,6 +26,13 @@ def sort_array_char_count(array)
   end
 end
 
+def swap_elements(array)
+  temp = array[2]
+  array[2] = array[1]
+  array[1] = temp
+  array
+end
+
 def swap_elements3(array, index, destination_index)
   temp = array[destination_index]
   array[destination_index] = array[index]
@@ -33,9 +40,10 @@ def swap_elements3(array, index, destination_index)
   array
 end
 
-def swap_elements(array)
-  temp = array[2]
-  array[2] = array[1]
-  array[1] = temp
-  array
+def reverse_array(array)
+  reversed_array = []
+  array.each do |item|
+    reversed_array.unshift(item)
+  end
+  reversed_array
 end
