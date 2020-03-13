@@ -53,10 +53,9 @@ end
 def kesha_maker(array)
   kesha_array = array.collect do |item|
     item[2] = "$"
-    binding.pry
   end
   kesha_array
 end
 
-array = ["Kesha", "Meow", "WAS"]
-kesha_maker(array)
+# array = ["Kesha", "Meow", "WAS"]
+# kesha_maker(array)
