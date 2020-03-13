@@ -51,11 +51,11 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  kesha_array = array.each do |item|
+  array.each do |item|
     item[2] = "$"
   end
   kesha_array
-  binding.pry
+
 end
 
 array = ["Kesha", "Meow", "WAS"]
