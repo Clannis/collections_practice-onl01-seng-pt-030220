@@ -72,7 +72,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  new_array = .each_with_index.collect do |element, index|
+  new_array = array.each_with_index.collect do |element, index|
     if index != 2
       element << "s"
   end
