@@ -70,3 +70,11 @@ def sum_array(array)
   end
   sum
 end
+
+def add_s(array)
+  new_array = .each_with_index.collect do |element, index|
+    if index != 2
+      element << "s"
+  end
+  new_array
+end
